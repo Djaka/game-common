@@ -22,7 +22,10 @@ let package = Package(
         .target(
             name: "CommonPackage",
             dependencies: [],
-            path: "Common"
+            path: "Common",
+            resources: [
+                .process("Comon/UI/LoadMore/*{h,m,swift,xib}")
+            ]
         ),
         .testTarget(
             name: "CommonPackageTests",
