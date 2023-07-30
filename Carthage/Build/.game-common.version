@@ -8,7 +8,7 @@
   "tvOS" : [
 
   ],
-  "commitish" : "2.0.0",
+  "commitish" : "1.0.1",
   "iOS" : [
     {
       "swiftToolchainVersion" : "5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)",
@@ -19,7 +19,7 @@
     },
     {
       "swiftToolchainVersion" : "5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)",
-      "hash" : "3e5765b3ad0772dd03eb4ad6141af782c61831aac0f61ba54bfdea76a92c04d1",
+      "hash" : "6e84c684786110c9b0fd70af6b00e0e8788a4a466aede58b998bd513029f0960",
       "name" : "Common",
       "container" : "Common.xcframework",
       "identifier" : "ios-arm64_x86_64-simulator"
