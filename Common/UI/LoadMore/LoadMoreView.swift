@@ -27,6 +27,7 @@ public class LoadMoreView: UIView {
     private func loadContentView() {
         #if SWIFT_PACKAGE
         let nib = UINib(nibName: "LoadMoreView", bundle: Bundle.module)
+        nib.instantiate(withOwner: self, options: nil)
         #else
         UIView.loadFromNib(nibClass: LoadMoreView.self, owner: self)
         #endif
